@@ -128,18 +128,20 @@ public class Notas {
 		
 		*/
 		
+	 
 		float raio, comprimento, area, volume;
 		System.out.println("Insira o raio: ");
 		raio = sc.nextFloat();
 		
 		comprimento = (float) (2 * Math.PI * raio);
-		System.out.printf("O comprimento é %.2f",comprimento);
-		System.out.println("\n");
+		System.out.printf("O comprimento é %.2f\n",comprimento);
+		
 		area = (float) (Math.PI * Math.pow(raio, 2));
-		System.out.printf("A area é %.2f",area);
-		System.out.println("\n");
+		System.out.printf("A area é %.2f\n",area);
+		
 		volume = (float) ((3f/4f) * Math.PI * Math.pow(raio, 3));
-		System.out.printf("A area é %.2f",volume);
+		System.out.printf("A area é %.2f\n",volume);
+		
 		
 		
 		
